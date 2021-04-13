@@ -79,6 +79,13 @@ Foi utilizado o Jib para a criação da imagem e deploy no DockerHub.
 
 Para aqueles que querem apenas testar o projeto sem baixar nada na máquina, pode-se acessar o link para o projeto hospedado no heroku.
 
+https://simulated.herokuapp.com/
+
+!ATENÇÃO
+
+No momento a aplicação ainda não está disponível pois o Heroku não suporta o H2.
+Será feito a troca para o PostgreSQL.
+
 ```txt
 mvn clean test
 ```
