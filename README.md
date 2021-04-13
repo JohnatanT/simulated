@@ -86,10 +86,6 @@ https://simulated.herokuapp.com/
 No momento a aplicação ainda não está disponível pois o Heroku não suporta o H2.
 Será feito a troca para o PostgreSQL.
 
-```txt
-mvn clean test
-```
-
 ## Dúvidas
 
 * johnatantavares9@gmail.com
