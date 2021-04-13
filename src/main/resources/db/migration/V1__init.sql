@@ -40,7 +40,7 @@ CREATE TABLE proof (
 CREATE TABLE question (
 	id bigint NOT NULL PRIMARY KEY,
 	code VARCHAR(50) UNIQUE,
-	description CLOB,
+	description TEXT,
 	image_url VARCHAR,
 	level VARCHAR (20)
 );
@@ -57,7 +57,7 @@ CREATE TABLE question_item (
 	id bigint NOT NULL PRIMARY KEY,
 	question_id bigint,
 	option VARCHAR,
-	description CLOB
+	description TEXT
 );
 
 CREATE TABLE feedback (
