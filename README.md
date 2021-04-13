@@ -81,11 +81,6 @@ Para aqueles que querem apenas testar o projeto sem baixar nada na máquina, pod
 
 https://simulated.herokuapp.com/
 
-!ATENÇÃO
-
-No momento a aplicação ainda não está disponível pois o Heroku não suporta o H2.
-Será feito a troca para o PostgreSQL.
-
 ## Dúvidas
 
 * johnatantavares9@gmail.com
