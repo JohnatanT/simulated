@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+	<!-- Estudantes -->
+	<student id="100000000" code="1A" name="JOAO" />
+	<student id="100000001" code="2A" name="MARIA" />
+	<student id="100000002" code="3A" name="DOUGLAS" />
+
+	<!-- Simulado, prova e gabarito -->
+	<simulated id="100000000" code="1S" created_at="2020-04-13" />
+	<proof id="100000000" code="1P" simulated_id="100000000" />
+	<feedback id="100000000" code="1F" proof_id="100000000" />
+
+	<!-- Questão 1 -->
+	<question id="100000000" code="1Q"
+		description="Vamos prender o Saci? Sua missão nesse jogo é prender o Saci, um diabinho de uma perna só que adora fazer bagunça. Ele está sempre com um cachimbo aceso na boca e uma carapuça vermelha na cabeça, que é o que lhe dá força. Quem conseguir pegar a carapuça do Saci transforma o diabinho em seu ajudante. Quando ele vira um rodemoinho, a única maneira de segurá-lo é jogando uma peneira de cruzeta em cima dele. Depois, para aprisioná-lo, é preciso jogar uma garrafa em cima da peneira, e arrolhar bem forte. O Saci também tem medo de água: ele nunca cruza um riacho. Se
+colocarem ele numa ilha, pode ficar preso lá o resto da vida. Neste texto, encontram-se instruções sobre como"
+		level="EASY" />
+
+	<question_item id="100000000" question_id="100000000"
+		option="A" description="armar uma arapuca." />
+	<question_item id="100000001" question_id="100000000"
+		option="B" description="roubar uma carapuça." />
+	<question_item id="100000002" question_id="100000000"
+		option="C" description="prender o Saci." />
+	<question_item id="100000003" question_id="100000000"
+		option="D" description="tornar-se ajudante do Saci." />
+	<question_item id="100000004" question_id="100000000"
+		option="E" description="jogar uma peneira na garrafa" />
+
+	<proof_question id="100000000" proof_id="100000000"
+		question_id="100000000" />
+	<feedback_question id="100000000"
+		feedback_id="100000000" question_id="100000000"
+		correct_question_item_id="100000002" />
+
+	<!-- Questão 2 -->
+	<question id="100000001" code="2Q"
+		description="Este folheto faz parte de uma campanha institucional que tem por finalidade"
+		image_url="http://portaldoprofessor.mec.gov.br/storage/discovirtual/galerias/imagem/0000000093/md.0000021396.jpg"
+		level="EASY" />
+	<question_item id="100000005" question_id="100000001"
+		option="A" description="informar sobre a qualidade da água." />
+	<question_item id="100000006" question_id="100000001"
+		option="B" description="estimular o consumo de água." />
+	<question_item id="100000007" question_id="100000001"
+		option="C" description="reduzir o consumo de copos descartáveis.." />
+	<question_item id="100000008" question_id="100000001"
+		option="D" description="alertar para a qualidade do ar." />
+	<question_item id="100000009" question_id="100000001"
+		option="E" description="conciliar as pessoas no ambiente de trabalho." />
+
+	<proof_question id="100000001" proof_id="100000000"
+		question_id="100000001" />
+	<feedback_question id="100000001"
+		feedback_id="100000000" question_id="100000001"
+		correct_question_item_id="100000007" />
+
+
+	<!-- Questão 3 -->
+	<question id="100000002" code="3Q"
+		description="Para se aproximar do público-alvo, esta campanha utiliza a linguagem oral, que pode
+ser identificada em"
+		image_url="http://portaldoprofessor.mec.gov.br/storage/discovirtual/galerias/imagem/0000000093/md.0000021396.jpg"
+		level="EASY" />
+	<question_item id="100000010" question_id="100000002"
+		option="A" description="adote um copo." />
+	<question_item id="100000011" question_id="100000002"
+		option="B" description="como podemos ajudar?" />
+	<question_item id="100000012" question_id="100000002"
+		option="C" description="use uma caneca própria." />
+	<question_item id="100000013" question_id="100000002"
+		option="D" description="olá, galera." />
+	<question_item id="100000014" question_id="100000002"
+		option="E" description="traga uma garrafinha de água." />
+
+	<proof_question id="100000002" proof_id="100000000"
+		question_id="100000002" />
+	<feedback_question id="100000002"
+		feedback_id="100000000" question_id="100000002"
+		correct_question_item_id="100000013" />
+
+	<!-- Questão 4 -->
+	<question id="100000003" code="4Q"
+		description="Todos comeram a mesma fração das duas porções de batatas fritas pedidas, mas um
+deles, vegetariano, não consumiu nenhuma parte da picanha grelhada, que foi
+dividida igualmente entre os outros três. João, que não é vegetariano, consumiu, além
+das batatas fritas e da picanha, 1 refrigerante e 1 suco de laranja e, de sobremesa,
+pediu um sorvete. Teve de pagar, portanto,"
+		level="MEDIUM" />
+	<question_item id="100000015" question_id="100000003"
+		option="A" description="R$ 43,50." />
+	<question_item id="100000016" question_id="100000003"
+		option="B" description="R$ 41,50." />
+	<question_item id="100000017" question_id="100000003"
+		option="C" description="R$ 39,00." />
+	<question_item id="100000018" question_id="100000003"
+		option="D" description="R$ 37,00." />
+	<question_item id="100000019" question_id="100000003"
+		option="E" description="R$ 18,50." />
+
+	<proof_question id="100000003" proof_id="100000000"
+		question_id="100000003" />
+	<feedback_question id="100000003"
+		feedback_id="100000000" question_id="100000003"
+		correct_question_item_id="100000016" />
+
+
+	<!-- Questão 5 -->
+	<question id="100000004" code="5Q"
+		description="Como dizia
+aquele bem-te-vi que ficou míope:
+'bem te via... bem te via...' O poeta construiu o humor nos versos acima por meio"
+		level="MEDIUM" />
+	<question_item id="100000020" question_id="100000004"
+		option="A" description="da exploração do verbo contido no nome da ave" />
+	<question_item id="100000021" question_id="100000004"
+		option="B" description="da atribuição da fala a um pássaro." />
+	<question_item id="100000022" question_id="100000004"
+		option="C" description="do uso de reticências no último verso." />
+	<question_item id="100000023" question_id="100000004"
+		option="D" description="de uma rima inesperada (dizia com via." />
+	<question_item id="100000024" question_id="100000004"
+		option="E" description="da repetição da palavra “bem-te-vi." />
+
+	<proof_question id="100000004" proof_id="100000000"
+		question_id="100000004" />
+	<feedback_question id="100000004"
+		feedback_id="100000000" question_id="100000004"
+		correct_question_item_id="100000020" />
+
+	<!-- Questão 6 -->
+	<question id="100000005" code="6Q"
+		description="Para fazer a festa junina da escola, os alunos do Ensino Fundamental foram divididos
+em grandes grupos. Cada grupo tinha a missão de arrecadar dinheiro a partir de
+doações para comprar o maior número possível de prendas de um determinado tipo
+(bolas de plástico, canetas etc.). Um dos grupos conseguiu juntar R$ 211,75 e vai
+gastar todo o dinheiro comprando bolas de plástico, cada uma no valor de 27
+centavos. Conseguirão comprar, portanto, no máximo,"
+		level="MEDIUM" />
+	<question_item id="100000025" question_id="100000005"
+		option="A" description="786 bolas" />
+	<question_item id="100000026" question_id="100000005"
+		option="B" description="785 bolas" />
+	<question_item id="100000027" question_id="100000005"
+		option="C" description="784 bolas" />
+	<question_item id="100000028" question_id="100000005"
+		option="D" description="783 bolas" />
+	<question_item id="100000029" question_id="100000005"
+		option="E" description="782 bolas." />
+
+	<proof_question id="100000005" proof_id="100000000"
+		question_id="100000005" />
+	<feedback_question id="100000005"
+		feedback_id="100000000" question_id="100000005"
+		correct_question_item_id="100000027" />
+
+
+	<!-- Questão 7 -->
+	<question id="100000006" code="7Q"
+		description="No tratamento de piscinas, um dos produtos utilizados é o algicida, cuja função é
+eliminar as algas da água. Costuma vir em embalagens de 1 L, 2 L ou 5 L, e deve ser
+utilizado na razão de 7 mL do produto para cada metro cúbico de água na piscina. No texto, foram destacadas 3 unidades de medida, sendo"
+		level="MEDIUM" />
+	<question_item id="100000030" question_id="100000006"
+		option="A"
+		description="1 delas referente a capacidade, 1 referente a massa e 1 referente a comprimento." />
+	<question_item id="100000031" question_id="100000006"
+		option="B"
+		description="1 delas referente a capacidade e 2 delas referentes a massa." />
+	<question_item id="100000032" question_id="100000006"
+		option="C"
+		description="2 delas referentes a capacidade e 1 delas referente a massa." />
+	<question_item id="100000033" question_id="100000006"
+		option="D" description="as 3 referentes a capacidade." />
+	<question_item id="100000034" question_id="100000006"
+		option="E" description="as 3 referentes a massa.." />
+
+	<proof_question id="100000006" proof_id="100000000"
+		question_id="100000006" />
+	<feedback_question id="100000006"
+		feedback_id="100000000" question_id="100000006"
+		correct_question_item_id="100000032" />
+
+	<!-- Questão 8 -->
+	<question id="100000007" code="8Q"
+		description="Se duas pequenas esferas de metal idênticas forem carregadas eletricamente, encostadas e depois separadas, as cargas finais de cada uma serão iguais à metade da
+soma algébrica das cargas iniciais. Considere as configurações a seguir, em que uc significa unidade de carga.
+I. Cargas iniciais de +3 uc e −3 uc.
+II. Cargas inicias de +5 uc e −1 uc.
+III. Cargas iniciais de −5 uc e +1 uc.
+Se realizarmos o experimento descrito com cada uma das configurações, as cargas
+finais de cada esfera serão de"
+		level="HARD" />
+	<question_item id="100000035" question_id="100000007"
+		option="A" description="0 uc em I, +2 uc em II e −2 uc em III." />
+	<question_item id="100000036" question_id="100000007"
+		option="B" description="0 uc em I, −2 uc em II e +2 uc em III." />
+	<question_item id="100000037" question_id="100000007"
+		option="C" description="+3 uc em I, +3 uc em II e −3 uc em III" />
+	<question_item id="100000038" question_id="100000007"
+		option="D" description="−3 uc em I, −2 uc em II e −2 uc em III" />
+	<question_item id="100000039" question_id="100000007"
+		option="E" description="−3 uc em I, +2 uc em II e −2 uc em III." />
+
+	<proof_question id="100000007" proof_id="100000000"
+		question_id="100000007" />
+	<feedback_question id="100000007"
+		feedback_id="100000000" question_id="100000007"
+		correct_question_item_id="100000035" />
+
+	<!-- Questão 9 -->
+	<question id="100000008" code="9Q"
+		description="Na prova de Matemática de uma sala do Ensino Fundamental, pedia-se o valor da
+seguinte expressão:
+(13 + 7×3) ÷ 2.
+Carlos se distraiu na hora da resolução e, apesar de ter acertado a regra dos
+parênteses, trocou a ordem das operações indicadas dentro deles. A diferença entre o
+valor obtido por ele e o valor correto, nessa ordem, é"
+		level="HARD" />
+	<question_item id="100000040" question_id="100000008"
+		option="A" description="30" />
+	<question_item id="100000041" question_id="100000008"
+		option="B" description="17" />
+	<question_item id="100000042" question_id="100000008"
+		option="C" description="13" />
+	<question_item id="100000043" question_id="100000008"
+		option="D" description="10" />
+	<question_item id="100000044" question_id="100000008"
+		option="E" description="7" />
+
+	<proof_question id="100000008" proof_id="100000000"
+		question_id="100000008" />
+	<feedback_question id="100000008"
+		feedback_id="100000000" question_id="100000008"
+		correct_question_item_id="100000042" />
+
+	<!-- Questão 10 -->
+	<question id="100000009" code="10Q"
+		description="O humor da tira ocorre porque"
+		image_url="http://www.monica.com.br/comics/tirinhas/tira21.html"
+		level="HARD" />
+	<question_item id="100000045" question_id="100000009"
+		option="A" description="é incomum o Cebolinha pedir ajuda ao Cascão" />
+	<question_item id="100000046" question_id="100000009"
+		option="B"
+		description="Cascão nega, disfarçadamente, ajuda ao Cebolinha" />
+	<question_item id="100000047" question_id="100000009"
+		option="C"
+		description="Cascão oferece uma ajuda diferente da esperada pelo Cebolinha" />
+	<question_item id="100000048" question_id="100000009"
+		option="D"
+		description="ninguém pode vencer a Mônica, nem mesmo o Cascão" />
+	<question_item id="100000049" question_id="100000009"
+		option="E"
+		description="Cascão não sabe como poderia ajudar o Cebolinha, então apenas mostra sua solidariedade" />
+
+	<proof_question id="100000009" proof_id="100000000"
+		question_id="100000009" />
+	<feedback_question id="100000009"
+		feedback_id="100000000" question_id="100000009"
+		correct_question_item_id="100000047" />
+		
+		<!-- Aluno Simulado -->
+		<student_simulated id="100000000"  simulated_id="100000000" student_id="100000000" />
+		<student_simulated id="100000001"  simulated_id="100000000" student_id="100000001" />
+		<student_simulated id="100000002"  simulated_id="100000000" student_id="100000002" />
+		
+		<!-- Aluno Prova -->
+		<student_proof id="100000000" student_id="100000000" proof_id="100000000" />
+		<student_proof id="100000001" student_id="100000001" proof_id="100000000" />
+		<student_proof id="100000002" student_id="100000002" proof_id="100000000" />
+		
+		<!-- Prova - Resposta -->
+		<proof_answer id="100000000" student_proof_id="100000000" question_item_id="100000002" question_id="100000000" correct="true" />
+		<proof_answer id="100000001" student_proof_id="100000000" question_item_id="100000007" question_id="100000001" correct="true" />
+		<proof_answer id="100000002" student_proof_id="100000000" question_item_id="100000013" question_id="100000002" correct="true" />
+		<proof_answer id="100000003" student_proof_id="100000000" question_item_id="100000016" question_id="100000003" correct="true" />
+		<proof_answer id="100000004" student_proof_id="100000000" question_item_id="100000020" question_id="100000004" correct="true" />
+		<proof_answer id="100000005" student_proof_id="100000000" question_item_id="100000027" question_id="100000005" correct="true" />
+		<proof_answer id="100000006" student_proof_id="100000000" question_item_id="100000032" question_id="100000006" correct="true" />
+		<proof_answer id="100000007" student_proof_id="100000000" question_item_id="100000035" question_id="100000007" correct="true" />
+		<proof_answer id="100000008" student_proof_id="100000000" question_item_id="100000042" question_id="100000008" correct="true" />
+		<proof_answer id="100000009" student_proof_id="100000000" question_item_id="100000047" question_id="100000009" correct="true" />
+		
+		
+		<proof_answer id="100000010" student_proof_id="100000001" question_item_id="100000002" question_id="100000000" correct="true" />
+		<proof_answer id="100000011" student_proof_id="100000001" question_item_id="100000008" question_id="100000001" correct="false" />
+		<proof_answer id="100000012" student_proof_id="100000001" question_item_id="100000014" question_id="100000002" correct="false" />
+		<proof_answer id="100000013" student_proof_id="100000001" question_item_id="100000016" question_id="100000003" correct="true" />
+		<proof_answer id="100000014" student_proof_id="100000001" question_item_id="100000020" question_id="100000004" correct="true" />
+		<proof_answer id="100000015" student_proof_id="100000001" question_item_id="100000027" question_id="100000005" correct="true" />
+		<proof_answer id="100000016" student_proof_id="100000001" question_item_id="100000032" question_id="100000006" correct="true" />
+		<proof_answer id="100000017" student_proof_id="100000001" question_item_id="100000035" question_id="100000007" correct="true" />
+		<proof_answer id="100000018" student_proof_id="100000001" question_item_id="100000043" question_id="100000008" correct="false" />
+		<proof_answer id="100000019" student_proof_id="100000001" question_item_id="100000047" question_id="100000009" correct="true" />
+		
+		<proof_answer id="100000020" student_proof_id="100000002" question_item_id="100000002" question_id="100000000" correct="true" />
+		<proof_answer id="100000021" student_proof_id="100000002" question_item_id="100000008" question_id="100000001" correct="false" />
+		<proof_answer id="100000022" student_proof_id="100000002" question_item_id="100000014" question_id="100000002" correct="false" />
+		<proof_answer id="100000023" student_proof_id="100000002" question_item_id="100000016" question_id="100000003" correct="true" />
+		<proof_answer id="100000024" student_proof_id="100000002" question_item_id="100000020" question_id="100000004" correct="true" />
+		<proof_answer id="100000025" student_proof_id="100000002" question_item_id="100000027" question_id="100000005" correct="true" />
+		<proof_answer id="100000026" student_proof_id="100000002" question_item_id="100000032" question_id="100000006" correct="true" />
+		<proof_answer id="100000027" student_proof_id="100000002" question_item_id="100000035" question_id="100000007" correct="true" />
+		<proof_answer id="100000028" student_proof_id="100000002" question_item_id="100000043" question_id="100000008" correct="false" />
+		<proof_answer id="100000029" student_proof_id="100000002" question_item_id="100000047" question_id="100000009" correct="true" />
+
+		
+</dataset>
