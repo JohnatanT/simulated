@@ -22,9 +22,8 @@ public class QuestionService {
 	
 	public Question findByIdWithValidate(Long id) throws PreconditionException {
 		Optional<Question> question = questionRepository.findById(id);
-		if (question.isEmpty())
-			throw new PreconditionException(BusinessRulesEnum.QUESTION_NOT_FOUND, getClass());
-		
-		return question.get();
+
+		return question.orElseThrow(() 
+				-> new PreconditionException(BusinessRulesEnum.QUESTION_NOT_FOUND, getClass()));
 	}
 }
