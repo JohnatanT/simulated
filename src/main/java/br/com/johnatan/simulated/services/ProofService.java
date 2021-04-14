@@ -23,9 +23,7 @@ public class ProofService {
 	public Proof findByIdWithValidate(Long id) throws PreconditionException {
 		Optional<Proof> proof = proofRepository.findById(id);
 		
-		if (proof.isEmpty())
-			 throw new PreconditionException(BusinessRulesEnum.PROOF_NOT_FOUND, getClass());
-		
-		return proof.get();
+		return proof.orElseThrow(()
+				-> new PreconditionException(BusinessRulesEnum.PROOF_NOT_FOUND, getClass()));
 	}
 }
