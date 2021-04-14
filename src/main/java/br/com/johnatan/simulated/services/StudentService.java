@@ -23,10 +23,8 @@ public class StudentService {
 	
 	public Student findByIdWithValidate(Long id) throws PreconditionException {
 		Optional<Student> student = studentRepository.findById(id);
-		if (student.isEmpty())
-			throw new PreconditionException(BusinessRulesEnum.STUDENT_NOT_FOUND, getClass());
-		
-		return student.get();
+		return student.orElseThrow(()
+				-> new PreconditionException(BusinessRulesEnum.STUDENT_NOT_FOUND, getClass()));
 	}
 	
 	public List<Student> findRankBySimulatedId(Long simulatedId) {
